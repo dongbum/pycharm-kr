@@ -5,7 +5,7 @@ dist: bionic
 sudo: false # faster builds
 
 jdk:
-  - oraclejdk8
+  - openjdk11
 
 after_success:
   - ./gradlew coveralls
