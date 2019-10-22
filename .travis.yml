@@ -1,5 +1,7 @@
 language: java
 
+dist: bionic
+
 sudo: false # faster builds
 
 jdk:
